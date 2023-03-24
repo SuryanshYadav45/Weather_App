@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maindiv {
+    background-color: #3B444B;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 320px;
+}
+
+.search input {
+    width: 270px;
+    height: 35px;
+    border: 2px solid #404258;
+    border-radius: 10px;
+}
+
+.searchbtn {
+    background-color: cornflowerblue;
+    height: 35px;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.searchbtn:hover {
+    cursor: pointer;
+
+}
+
+.card {
+    background-color: white;
+    margin-top: 20px;
+    width: 380px;
+    height: 480px;
+    border-radius: 20px;
+
+}
+
+.weathericon {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-bottom: 2px solid #3B444B;
+}
+
+.Icon {
+    margin-left: 37%;
+    width: 100px;
+    height: 100px;
+}
+
+.weatherDes {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.temp {
+    text-align: center;
+    font-size: 40px;
+}
+
+.weatherType {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.status1 div {
+
+    text-align: center;
+}
+
+.status1 div p,
+.status1 div h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.div2,
+.otherdes {
+
+    margin-right: 12px;
+    margin-left: 12px;
+
+
+}
+
+.editdiv {
+    border-right: 2px solid cornflowerblue;
+}
+
+.windspeed {
+    width: 110px;
+}
+
+.status2 div {
+    text-align: center;
+
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.statuscol1 {
+    border-right: 2px solid white;
+}
+
+.enddiv {
+    text-align: center;
+
+}
+
+.enddiv h3 {
+    font-size: 30px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-style: unset;
+}
